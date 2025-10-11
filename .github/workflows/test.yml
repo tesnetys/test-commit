@@ -24,6 +24,7 @@ jobs:
       - name: Commit and push
         run: |
           git config --global user.name "tesnetys"
+          git config --global user.email "alungsj1122@gmail.com"
           git add log.txt
           git commit -m "Daily"
           git push origin main
